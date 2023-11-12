@@ -1,4 +1,4 @@
-# MicroPython Max7219 8x8 LED Matrix
+# MicroPython Max7219 8x8 LED Matrix and 7 Segment Displays*
 ![PyPI](https://img.shields.io/pypi/v/micropython-max7219)
 ![PyPI - Implementation](https://img.shields.io/pypi/implementation/micropython-max7219)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/micropython-max7219)
@@ -152,9 +152,12 @@ class Matrix8x8Ext(Matrix8x8):
 ```
 
 
-## Attribution
+## Attribution*
 - Original code by [@mcauser](https://github.com/mcauser/micropython-max7219)
 - [Data-Sheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max7219-max7221.pdf)
+
+- 7 segments code by [@JennaSys](https://github.com/JennaSys/micropython-max7219)
+  -  Please refer to JennaSys repository for the README and examples.
 
 
 ## License
